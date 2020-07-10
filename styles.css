@@ -30,37 +30,37 @@ li.nav-item>a.nav-link:hover {
 } */
 
 .logo1{
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
-.logo1.scrolled1{
-  width: 45px;
-  height: 45px;
-}
 
-.scrolled1:hover{
-  transform: 2;
-}
 
 .lineargradnt{
   transition: 500ms ease;
   background: transparent;
 }
 
-.lineargradnt.scrolled{
-  background: linear-gradient(#000 30%, #0000)
-  /* background: black; */
-}
+ .lineargradnt.scrolled{
+  background: linear-gradient(#000 40%, #0000);
+   /* background: black;  */
+} 
+
+/* .scrolled{
+  background: linear-gradient(#000 30%, #0000) !important;
+  /* background: black; 
+} */
 #logoo
 {
   width:auto !important;
-  height: 90px !important;
+  height: 60px !important;
   border: 0px !important;
 }
 #drp{
-  background-color: transparent !important;
-  border: 0px;
+  background: linear-gradient(#000 35%, #0000);
+  /*background-color: transparent !important;*/
+  border: 1px white solid;
+  
 }
 #elee{
   color:white !important;

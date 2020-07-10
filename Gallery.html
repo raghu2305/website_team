@@ -43,7 +43,7 @@
 
     document.body.background = final;
   </script>
- <nav class="navbar sidebar-collapsed navbar-expand-lg ">
+ <nav class="navbar sidebar-collapsed navbar-expand-lg sticky-top lineargradnt" id="navbar1">
   <a id="logo" class="navbar-brand" style="color: white;" href="index.html"><img style="border:0px;" src="White Transparent.png" width="100"
       height="100" alt="" loading="lazy"></a>
   <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
@@ -339,5 +339,9 @@
   <script src="./bootstrap.min.js"></script>
 
 </body>
-
+<script>
+  $(window).scroll(function(){
+  $('nav').toggleClass('scrolled',$(this).scrollTop()>120);
+  });
+</script>
 </html>
