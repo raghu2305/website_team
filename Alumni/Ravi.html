@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Work in progress</title>
+  <title>Alumni||Ravi</title>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="../bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alice">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
-    <title>Alumni||Ravi</title>
+    <title>Alumni</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
     header{
@@ -32,8 +32,8 @@
 
     document.body.background = final;
   </script>
-   <nav class="navbar sidebar-collapsed navbar-expand-lg ">
-    <a id="logo" class="navbar-brand" style="color: white;" href="../index.html"><img src="White Transparent.png" width="100"
+  <nav class="navbar sidebar-collapsed navbar-expand-lg sticky-top lineargradnt" id="navbar1">
+    <a id="logo" class="navbar-brand" style="color: white;" href="../index.html"><img id="logoo" src="White Transparent.png" width="100"
         height="100" alt="" loading="lazy"></a>
     <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
       style="float:right;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -66,26 +66,26 @@
 <section class="text-gray-700 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
-      <img alt="Ravi" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="Alumni pic/b.jpeg">
+      <img alt="Ravi" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="Alumni pic/Ravi.jpeg" style="height:600px">
       <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-        <h1 class="text-sm title-font text-white tracking-widest" style="font-size: 40px;"> Ravi</h1>
-        <h2 class="text-white text-3xl title-font font-medium mb-1" style="font-size: 20px;">(2014-2018)</h2>
+        <h1 class="text-sm title-font text-white tracking-widest" style="font-size: 40px;"> Ravi Kumar</h1><br>
+        <h2 class="text-white text-3xl title-font font-medium mb-1" style="font-size: 20px;">(2016-2020)</h2><br>
        
-        <p class="leading-relaxed">He is currently working in TCS as Software Developer</p><br>
-        <p class="leading-relaxed" ><i>"message"</i></p>
+        <p class="leading-relaxed">He is currently working in Infoaxon private ltd as Software Developer.</p><br><br>
+        <p class="leading-relaxed" ><i>Good things remain good only because they are always scarce.It has always been great pleasure to be the member of this scarce technical society TCS. Here I learned how to be a technical guy. TCS brings the students and teachers of various disciplines on a common platform to share and display their ideas and creative talents. I wish all the juniors of society for their great career ahead.</i></p><br>
         <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-200 mb-5">
 		 <div class="flex mb-4" style="align-items:left">
          
           <span class="flex ml-1 pl-3 py-2 border-l-2 border-gray-200" >
-            <a class="text-blue-500" style="color: white;>
-              <button onclick="window.location.href='https://www.google.com';"> 
+            <a class="text-blue-500" style="color: white; border: 0px;">
+              <button onclick="window.location.href='https://www.facebook.com/ravi.sahani.58367';"> 
 			  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg></button>
             </a>
           
             <a class="ml-3 text-gray-500" style="color: white;"
-            href="https://www.linkedin.com/company/t-i-t-s-computer-society">
+            href="https://www.linkedin.com/in/ravi-kumar-ravi-03121998/">
             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
               stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
               <path stroke="none"
@@ -141,4 +141,9 @@
 <script src="../bootstrap.min.js"></script>
 
 </body>
+<script>
+  $(window).scroll(function(){
+  $('nav').toggleClass('scrolled',$(this).scrollTop()>120);
+  });
+</script>
 </html>
