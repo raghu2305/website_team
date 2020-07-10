@@ -108,12 +108,13 @@ background-color: blue;
   height: 300px !important;
 }
 
-card-body-height{
-  min-height: 400px !important;
-}
-
 .card-body{
   height: 250px;
+}
+
+.textcolor1{
+  color: white;
+    font-family: alice;
 }
 
  @media screen and (max-width: 768px) {
