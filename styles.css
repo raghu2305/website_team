@@ -28,6 +28,30 @@ li.nav-item>a.nav-link:hover {
 /* body{
   font-family: 'Open Sans', sans-serif;
 } */
+
+.logo1{
+  width: 100px;
+  height: 100px;
+}
+
+.logo1.scrolled1{
+  width: 45px;
+  height: 45px;
+}
+
+.scrolled1:hover{
+  transform: 2;
+}
+
+.lineargradnt{
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.lineargradnt.scrolled{
+  background: linear-gradient(#000 30%, #0000)
+  /* background: black; */
+}
 #logoo
 {
   width:auto !important;
@@ -79,6 +103,19 @@ background-color: blue;
  }
 
 
+
+.image-card-height{
+  height: 300px !important;
+}
+
+.card-body{
+  height: 250px;
+}
+
+.textcolor1{
+  color: white;
+    font-family: alice;
+}
 
  @media screen and (max-width: 768px) {
   .title12 {
