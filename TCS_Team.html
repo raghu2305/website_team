@@ -15,7 +15,7 @@
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alice">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
         
-        <title>Members | TCS</title>
+        <title>Members</title>
 
         <style>
             *
@@ -27,9 +27,9 @@
 
             .header-text
             {
-                margin: 15px 5px 20px 3px;
                 text-align: center;
                 font-size: xx-large;
+                margin: 30px auto 20px;
             }
 
             h1.text
@@ -66,8 +66,7 @@
             .flip-card-section
             {
                 align-items: center;
-                margin: 50px 0px 0px 100px;
-                /*margin: 50px 0px 0px 120px;*/
+                margin: 50px 0px 0px 140px;
             }
 
             .flip-card 
@@ -85,7 +84,7 @@
                 height: 100%;
                 transition: transform 0.6s;
                 transform-style: preserve-3d;
-                box-shadow: 0 4px 6px 0 rgb(231, 227, 227);
+                /*box-shadow: 3px 4px 6px  rgb(231, 227, 227);*/
             }
             .flip-card:hover .flip-card-inner {
                 transform: rotateY(180deg);
@@ -101,19 +100,19 @@
 
             .flip-card-front {
                 padding: 2px;
-                box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.5);
+                box-shadow: 3px 4px 6px  rgba(231, 227, 227);
                 background-color: white;
                 color: black;
             }
 
             .flip-card-back {
-                padding: 100px 0px 0px 15px;
+                padding: 130px 0px 0px 15px;
                 font-size: large;
-                box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.12);
-                background-color: rgb(211,211,211);
-                color: black;
+                box-shadow: 3px 0px 6px rgba(231, 227, 227);
+                background-color: black;
+                color: white;
                 transform: rotateY(180deg);
-                text-align: justify;
+                text-align: center;
             }
             .container {
                 border-top: 1px solid black;
@@ -121,18 +120,395 @@
                 text-align: center;
             }
 
-            @media screen and (max-width: 500px)
+            @media screen and (max-width: 1100px)
             {
+                .header-text
+                {
+                    text-align: center;
+                }
                 .flip-card-section
                 {
-                    margin: 30px 0px 5px 14%;
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 140px;
                 }
                 .flip-card
                 {
-                    width: 230px;
+                    width: 220px;
                     height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
                     margin-right: 0px;
                 }
+            }
+
+            @media screen and (max-width: 1000px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 120px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+
+
+
+            @media screen and (max-width: 900px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 90px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 850px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 160px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            
+            @media screen and (max-width: 750px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 145px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 650px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 90px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            
+            @media screen and (max-width: 600px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 60px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            
+            @media screen and (max-width: 565px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 150px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+
+            @media screen and (max-width: 565px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 150px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 30px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 450px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 110px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 0px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+
+            @media screen and (max-width: 400px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 20%;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 0px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 350px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 50px;
+                }
+                .flip-card
+                {
+                    width: 220px;
+                    height: 330px;
+                    margin-right: 0px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 300px)
+            {
+                .header-text
+                {
+                    text-align: center;
+                }
+                .flip-card-section
+                {
+                    align-items:center;
+                    align-self: center;
+                    align-content: center;
+                    margin: 30px 0px 5px 50px;
+                }
+                .flip-card
+                {
+                    width: 200px;
+                    height: 330px;
+                    margin-right: 0px;
+                    align-items: center;
+                    align-self: center;
+                    align-content: center;
+                }
+                .all-team-data
+                {
+                    margin-left: auto;
+                    margin-right: 0px;
+                }
+            }
+
+            .containerall
+            {
+                width: 100%;
+                height: 100%;
             }
         </style>
 </head>
@@ -145,38 +521,39 @@
             var final = str1.concat(arr[x]);
             document.body.background = final;
         </script>
-
-<nav class="navbar sidebar-collapsed navbar-expand-lg ">
-    <a id="logo" class="navbar-brand" style="color: white;" href="index.html"><img src="White Transparent.png" width="100"
-        height="100" alt="" loading="lazy"></a>
-    <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
-      style="float:right;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-      <i style="color: white;" class="fa fa-bars"></i>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto ">
-        <li  class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              About Us
-          </a>
-          <div id="drp" class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" id="elee" href="about_us.html">Our Story</a>
-              <a class="dropdown-item" id="elee" href="mentors.html">Mentors</a>
-              <a class="dropdown-item active" id="elee" href="TCS_Team.html">Members</a>
-              <a class="dropdown-item" id="elee" href="alumni.html">Alumni</a>
-              <a class="dropdown-item" id="elee" href="developers.html">Developers</a>
-              
-          </div>
-      </li>
-        <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="Placement.html">Placements</a></li>
-        <li class="nav-item"><a class="nav-link" href="Downloads.html">Downloads</a></li>
-      </ul>
-    </div>
-  </nav>
+<div class="containerall">
+    <nav class="navbar sidebar-collapsed navbar-expand-lg ">
+        <a id="logo" class="navbar-brand" style="color: white;" href="index.html"><img id="logoo" src="White Transparent.png" width="100"
+            height="100" alt="" loading="lazy"></a>
+        <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
+          style="float:right;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <i style="color: white;" class="fa fa-bars"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li  class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  About Us
+              </a>
+              <div id="drp" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" id="elee" href="about_us.html">Our Story</a>
+                  <a class="dropdown-item" id="elee" href="mentors.html">Mentors</a>
+                  <a class="dropdown-item active" id="elee" href="TCS_Team.html">Members</a>
+                  <a class="dropdown-item" id="elee" href="alumni.html">Alumni</a>
+                  <a class="dropdown-item" id="elee" href="developers.html">Developers</a>
+                  
+              </div>
+          </li>
+            <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="Placement.html">Placements</a></li>
+            <li class="nav-item"><a class="nav-link" href="Downloads.html">Downloads</a></li>
+          </ul>
+        </div>
+      </nav>
+        
         <div class="header-text">
             <h1 class="text">All Members</h1>
         </div>
@@ -199,15 +576,14 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Vicky Gupta</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
-                            <p><b>Post : </b>President</p>
+                            <p>Vicky Gupta</p> 
+                            <p>I.T.</p> 
+                            <p>President</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
+                <div class="flip-card" >
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="Members Images/Pooja.jpg" alt="Pooja Pilani" style="width:300px;height:300px;">
@@ -216,10 +592,9 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Pooja Pilani</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
-                            <p><b>Post : </b>Vice-President</p>
+                            <p>Pooja Pilani</p> 
+                            <p>C.S.E.</p> 
+                            <p>Vice-President</p>
                         </div>
                     </div>
                 </div>
@@ -233,10 +608,9 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Naman Jain</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
-                            <p><b>Post : </b>Technical Innovator</p>
+                            <p>Naman Jain</p> 
+                            <p>C.S.E.</p> 
+                            <p>Technical Innovator</p>
                         </div>
                     </div>
                 </div>
@@ -250,10 +624,9 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Viswajit Maan</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
-                            <p><b>Post : </b>Technical Head</p>
+                            <p>Viswajit Maan</p> 
+                            <p>C.S.E.</p> 
+                            <p>Technical Head</p>
                         </div>
                     </div>
                 </div>
@@ -267,9 +640,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Jatin Bansal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
+                            <p>Jatin Bansal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -283,9 +655,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Muskan Bansal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
+                            <p>Muskan Bansal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -299,9 +670,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Sandeep Goyal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Final</p>
+                            <p>Sandeep Goyal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -324,9 +694,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Vipul Aggarwal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Vipul Aggarwal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -340,9 +709,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name  : </b>Aaryan Sharma</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year   : </b>Third</p>
+                            <p>Aaryan Sharma</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -356,9 +724,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Raghu Pratap Singh</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Raghu Pratap Singh</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -372,13 +739,13 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Yash Airan</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Yash Airan</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
 
+                
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -388,13 +755,12 @@
                                 </div>
                         </div> 
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Ansh Aggarwal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Ansh Aggarwal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -404,13 +770,12 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Himanshu Bhardwaj</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Himanshu Bhardwaj</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -420,9 +785,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Ankur Gupta</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Ankur Gupta</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -436,9 +800,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Tanya Munjal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Tanya Munjal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -452,9 +815,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Barbie</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Barbie</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -468,9 +830,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Nilansh</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Nilansh</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -484,9 +845,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Sanya Chawla</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Sanya Chawla</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -500,9 +860,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Vansh Tayal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Vansh Tayal</p> 
+                            <p>I.T.</p> 
                         </div>
                     </div>
                 </div>
@@ -516,9 +875,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Vibhor Sharma</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Third</p>
+                            <p>Vibhor Sharma</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -540,9 +898,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Saksham Nagpal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Saksham Nagpal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -556,9 +913,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name  : </b>Sakshi Kaushik</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year   : </b>Second</p>
+                            <p>Sakshi Kaushik</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -572,9 +928,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Mandeep Singh</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Mandeep Singh</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -588,9 +943,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Tammana Garg</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Tammana Garg</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -604,9 +958,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Aman Singh</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Aman Singh</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -620,9 +973,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Bharat Bhardwaj</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Bharat Bhardwaj</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -636,9 +988,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Lohit Jindal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Lohit Jindal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -652,9 +1003,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Deepanshu Bansal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Deepanshu Bansal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -668,9 +1018,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Harsh</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Harsh</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -684,9 +1033,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Lakshay Sukhija</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Lakshay Sukhija</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -700,9 +1048,8 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Purvi Munjal</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Purvi Munjal</p> 
+                            <p>C.S.E.</p> 
                         </div>
                     </div>
                 </div>
@@ -716,15 +1063,14 @@
                                 </div>
                         </div>
                         <div class="flip-card-back">
-                            <p><b>Name : </b>Sofia Arora</p> 
-                            <p><b>Branch : </b>C.S.E.</p> 
-                            <p><b>Year : </b>Second</p>
+                            <p>Sofia Arora</p> 
+                            <p>E.C.E.</p> 
                         </div>
                     </div>
                 </div>
             </section>
         </div>
-
+    
 
         <footer class="text-gray-700 body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -762,6 +1108,7 @@
               </span>
             </div>
           </footer>
+          </div>
           <script src="./jquery.3.2.1.min.js"></script>
           <script src="./popper.min.js"></script>
           <script src="./bootstrap.min.js"></script>
