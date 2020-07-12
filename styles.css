@@ -112,7 +112,7 @@ background-color: blue;
     font-family: alice;
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1000px) {
   .title12 {
     visibility: hidden;
     clear: both;
@@ -122,7 +122,7 @@ background-color: blue;
     display: none;
   }
 }
-@media screen and (min-width: 768px ) {
+@media screen and (min-width: 1000px ) {
   .title123 {
     visibility: hidden;
     clear: both;
@@ -132,3 +132,40 @@ background-color: blue;
     display: none;
   }
 }
+@media screen and (min-width: 600px ) {
+  .crimg{
+    height:600px !important;
+    
+  }
+}
+@media screen and (min-width: 600px ) {
+  .crfont{
+
+    font-size: 2rem !important;
+  }
+}
+@media screen and (min-width: 600px ) {
+  .crname{
+
+    font-size: 3rem !important;
+  }
+}
+@media screen and (min-width: 600px ) {
+  .crtitle{
+
+    font-size: 1.4rem !important;
+  }
+}
+@media screen and (max-width: 600px ) {
+  .glfont{
+
+    font-size: 4vw !important;
+  }
+}
+@media screen and (max-width: 800px ) {
+  .plfont{
+
+    font-size: 3vw !important;
+  }
+}
+
