@@ -106,9 +106,9 @@
         <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
         <li class="nav-item"><a class="nav-link" href="Placement.html">Placements</a></li>
         <li class="nav-item"><a class="nav-link" href="Downloads.html">Downloads</a></li>
-        <li class="nav-item"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
+        <li class="nav-item"><button type="button" class="btn btn-outline-primary btn-sm" data-toggle="modal"
             data-target="#staticBackdrop">
-            <marquee scrollamount="5">Event Registration</marquee>
+            Event Registration
           </button></li>
       </ul>
     </div>
@@ -529,79 +529,101 @@
         </div>
       </div>
     </div>
-
-
-
-
-    <!-- left and right controls for the slide -->
-
-
-    <div class="contact_container">
-      <h3 style="text-align: center;">Contact Form</h3>
-      <form action="/action_page.php">
-        <label for="fname" style="text-align: center;">Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your Name..">
-
-        <label for="lname" style="text-align: center;">Email ID</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your email id..">
-
-        <label for="category" style="text-align: center;">Category</label>
-        <select id="category" name="category">
-          <option value="first">First Year</option>
-          <option value="second">Second Year</option>
-          <option value="prefinal">Pre-Final Year</option>
-          <option value="final">Final Year</option>
-          <option value="alumni">Alumni</option>
-          <option value="nontitian">Non - TITIAN</option>
-        </select>
-
-        <label for="subject" style="text-align: center;">Message</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-      </form>
     </div>
+    <div class="jumbotron jumbotron-fluid my-4 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class='col-12'>
+        <h1 class="display-4 text-center">Contact Us</h1>
+      </div>
+        <div class="col-5" >
 
 
-    <footer class="text-gray-700 body-font">
-      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
 
-          <span class="ml-3 text-xl" style="color: white; padding-top: 8px;">TCS</span>
-        </a>
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-          style="color: white;">© 2020 TIT&S Computer Society
-        </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        </div>
+      <div class="col-7" >
+        <div class= "container">
+          <h4>Ask a question</h3>
+          <form action="/action_page.php">
+            <div class= " row">
+              <div class="col-6">
+            <input type="text" id="fname" name="firstname" placeholder="Your Name.." required>
+          </div>
+          <div class="col-6">
+            <select id="category" name="category" required>
+              <option value="first">First Year</option>
+              <option value="second">Second Year</option>
+              <option value="prefinal">Pre-Final Year</option>
+              <option value="final">Final Year</option>
+              <option value="alumni">Alumni</option>
+              <option value="nontitian">Non - TITIAN</option>
+            </select>
+            
+          </div>
+          <div class="col-12">
+            <input type="text" id="lname" name="lastname" placeholder="Your email id.." required>
+          </div>
+          <div class= "col-12">
+            <textarea id="subject" name="subject" placeholder="Your query here..." style="height:120px" required></textarea>
+            <div class= "text-center">
+            <input type="submit" value="Send" style="text-align: center;">
+          </div>
+          </div>
+          </div>
+
+          </form>
+        </div>
+        </div>
+        
+        <hr class="solid" >
+        <div class="col-12 text-center mt-4">
+            <a class="ml-3 text-gray-500 mr-3 " href="https://www.instagram.com/tcs_society/" style="color: white;">
+          <i class="fa fa-2x fa-google-plus" aria-hidden="true" style="color: white;"></i>
+            </a>
           <a class="text-gray-500" href="https://www.facebook.com/tcstit" style="color: white;">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-              viewBox="0 0 24 24">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
+            <i class="fa fa-2x fa-facebook" aria-hidden="true" style="color: white;"></i>
           </a>
 
           <a class="ml-3 text-gray-500" href="https://www.instagram.com/tcs_society/" style="color: white;">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-5 h-5" viewBox="0 0 24 24">
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
+            <i class="fa fa-2x fa-instagram" aria-hidden="true" style="color: white;"></i>
           </a>
           <a class="ml-3 text-gray-500" style="color: white;"
             href="https://www.linkedin.com/company/t-i-t-s-computer-society">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-              <path stroke="none"
-                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-              <circle cx="4" cy="4" r="2" stroke="none"></circle>
-            </svg>
+            <i class="fa fa-2x fa-linkedin" aria-hidden="true" style="color: white;"></i>
           </a>
-        </span>
-      </div>
-    </footer>
+    </div>
+  </div>
+    </div>
+  </div>
+  
     <script src="./jquery.3.2.1.min.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyArPUCpE5mFsv2RE4yb-DQpZ50Y4kMKMbE",
+    authDomain: "tcsproject-7ad86.firebaseapp.com",
+    databaseURL: "https://tcsproject-7ad86.firebaseio.com",
+    projectId: "tcsproject-7ad86",
+    storageBucket: "tcsproject-7ad86.appspot.com",
+    messagingSenderId: "1085382243022",
+    appId: "1:1085382243022:web:1c3152da751c0fae08969f",
+    measurementId: "G-94F725FZZC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  
+</script>
 </body>
 
 <script>

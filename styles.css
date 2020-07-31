@@ -26,6 +26,10 @@ li.nav-item>a.nav-link:hover {
   
 }
 
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
 
 .logo1{
   width: 60px;
