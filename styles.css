@@ -26,6 +26,7 @@ li.nav-item>a.nav-link:hover {
   
 }
 
+
 hr.solid {
   border-top: 3px solid #bbb;
 }
@@ -36,6 +37,9 @@ hr.solid {
   height: 60px;
 }
 
+.cont1{
+  padding-right: 100px;
+}
 
 
 .lineargradnt{
@@ -135,6 +139,27 @@ background-color: blue;
 }
 @media screen and (min-width: 1000px ) {
   .title123 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px ) {
+  .contactform {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+@media screen and (min-width: 850px ) {
+  .contactform1 {
     visibility: hidden;
     clear: both;
     float: left;
