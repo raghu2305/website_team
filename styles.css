@@ -97,7 +97,14 @@ background-color: blue;
  padding-right: 0;
  }
 
-
+ .form-check-input {
+  position: absolute;
+  margin-left: 0;
+  margin-top: .38rem;
+}
+.bg-dark1 {
+  background-color: #000000!important;
+}
 
 .image-card-height{
   height: 300px !important;
