@@ -564,7 +564,7 @@
               <div class="row">
                 <div class="col-4 center-block text-center" style="padding-left: 20px;">
                   <a href="https://titsbhiwani.ac.in/">
-                    <img src="tit-logo.png" alt="" style="height: 100px; width: 100px;">
+                    <img src="tit-logo.png" alt="" style="height: inherit; width: auto;">
                   </a>
                 </div>
                 <div class="col-8 ">
@@ -590,13 +590,11 @@
                       <input type="text" id="fname" name="firstname" placeholder="Your Name.." required>
                     </div>
                     <div class="col-6">
-                      <select id="category" name="category" required>
-                        <option value="first">First Year</option>
-                        <option value="second">Second Year</option>
-                        <option value="prefinal">Pre-Final Year</option>
-                        <option value="final">Final Year</option>
-                        <option value="alumni">Alumni</option>
+                      <select id="category" name="category" style="background-color: white;" placeholder="Choose" required>
+                        <option value="" disabled selected hidden >Select your option</option>
+                        <option value="first">Student</option>
                         <option value="nontitian">Non - TITIAN</option>
+                        <option value="alumni">Alumni</option>
                       </select>
 
                     </div>
@@ -650,6 +648,7 @@
 
           <label for="category" style="text-align: center;">Category</label>
           <select id="category" name="category">
+            <option value="" disabled selected hidden>Select your option</option>
             <option value="final">Student</option>
             <option value="alumni">Alumni</option>
             <option value="nontitian">Non - TITIAN</option>

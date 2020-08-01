@@ -26,6 +26,7 @@ li.nav-item>a.nav-link:hover {
   
 }
 
+/* select:invalid { color: gray; } */
 
 hr.solid {
   border-top: 3px solid #bbb;
