@@ -38,10 +38,6 @@ hr.solid {
   height: 60px;
 }
 
-.cont1{
-  padding-right: 100px;
-}
-
 
 .lineargradnt{
   transition: 500ms ease;
@@ -154,7 +150,7 @@ background-color: blue;
   }
 }
 
-@media screen and (max-width: 850px ) {
+@media screen and (max-width: 737px ) {
   .contactform {
     visibility: hidden;
     clear: both;
