@@ -26,6 +26,7 @@ li.nav-item>a.nav-link:hover {
   
 }
 
+/* select:invalid { color: gray; } */
 
 hr.solid {
   border-top: 3px solid #bbb;
@@ -60,7 +61,7 @@ hr.solid {
   border: 0px !important;
 }
 #drp{
-  background: linear-gradient(#000 35%, #0000);
+  background: black;
   /*background-color: transparent !important;*/
   border: 1px white solid;
   
@@ -103,6 +104,11 @@ background-color: blue;
  body .no-padding{
  padding-left: 0;
  padding-right: 0;
+ }
+
+ .jumbo{
+   padding: 1rem 0.5rem;
+   margin-bottom: 0rem;
  }
 
  .form-check-input {
