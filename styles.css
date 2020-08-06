@@ -26,12 +26,17 @@ li.nav-item>a.nav-link:hover {
   
 }
 
+/* select:invalid { color: gray; } */
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
 
 .logo1{
   width: 60px;
   height: 60px;
 }
-
 
 
 .lineargradnt{
@@ -52,7 +57,7 @@ li.nav-item>a.nav-link:hover {
   border: 0px !important;
 }
 #drp{
-  background: linear-gradient(#000 35%, #0000);
+  background: black;
   /*background-color: transparent !important;*/
   border: 1px white solid;
   
@@ -97,6 +102,11 @@ background-color: blue;
  padding-right: 0;
  }
 
+ .jumbo{
+   padding: 1rem 0.5rem;
+   margin-bottom: 0rem;
+ }
+
  .form-check-input {
   position: absolute;
   margin-left: 0;
@@ -131,6 +141,27 @@ background-color: blue;
 }
 @media screen and (min-width: 1000px ) {
   .title123 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 737px ) {
+  .contactform {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+@media screen and (min-width: 850px ) {
+  .contactform1 {
     visibility: hidden;
     clear: both;
     float: left;
